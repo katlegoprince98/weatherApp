@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: currentColor;
+}
+
+.card {
+    background: linear-gradient(45deg, black, transparent);
+    padding: 2em;
+    width: 100%;
+    border-radius: 30px;
+    max-width: 520px;
+    margin: 1em;
+    color: azure;
+}
+.search{
+    display: flex;
+    margin-trim: 2em;
+    align-items: center;
+}
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.2em 1em;
+    border-radius: 16px;
+    background: #7c7c7c2b;
+    color: white;
+    font-size: 120%;
+}
+
+button {
+    background: #7c7c7c2b;
+    color: white;
+    border-radius: 17px;
+    border: none;
+    margin: 0.3em;
+}
+button:hover{
+    background: orange;
+    color: #7c7c7c2;
+}
